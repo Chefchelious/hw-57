@@ -1,0 +1,20 @@
+.activeUser, .inactiveUser {
+    position: relative;
+}
+
+.activeUser:after, .inactiveUser:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #a41f1f;
+    position: absolute;
+    top: 16px;
+    left: 74px;
+}
+
+.activeUser:after {
+    background-color: green;
+}
+
