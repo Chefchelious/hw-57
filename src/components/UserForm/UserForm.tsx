@@ -105,7 +105,6 @@ const UserForm: React.FC<IProps> = ({onSubmit}) => {
                     <option value="user">user</option>
                     <option value="editor">editor</option>
                     <option value="admin">admin</option>
-                    <option value="sadad">sadad</option>
                 </select>
             </div>
 
